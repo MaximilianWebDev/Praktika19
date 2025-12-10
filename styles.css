@@ -4,19 +4,19 @@ section {
     margin-top: 50px;
 }
 
-
 .footer {
     background: #2b2b2b;
     padding: 60px 60px;
 
     display: flex;
-    justify-content: center;  
+    justify-content: center;   /* ← выравниваем оба блока по центру */
     align-items: flex-start;
 
-    gap: 310px;               
+    gap: 310px;                /* ← увеличил расстояние между блоками */
     color: #fff;
 }
 
+/* Левая часть */
 .footer-left {
     max-width: 500px;
     text-align: left;
@@ -42,6 +42,7 @@ section {
     font-size: 14px;
 }
 
+/* Правая часть */
 .footer-right {
     min-width: 200px;
     text-align: left;
@@ -73,4 +74,16 @@ section {
 .footer-nav li a:hover {
     color: #ffffff;
     padding-left: 5px;
+}
+
+.carousel-container {
+            max-width: 800px;
+            margin: 0 auto;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.d-block {
+    height: 500px;
 }
